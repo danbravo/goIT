@@ -1,3 +1,6 @@
+package mod3;
+
+import mod3.Guitar;
 
 public class MusicStore {
     public Guitar myGuitar = new Guitar();

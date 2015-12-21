@@ -1,3 +1,6 @@
+package mod3;
+
+import mod3.MusInstr;
 
 public class Piano extends MusInstr {
     @Override

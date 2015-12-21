@@ -1,3 +1,4 @@
+package mod3;
 
 public class Guitar extends MusInstr {
     @Override

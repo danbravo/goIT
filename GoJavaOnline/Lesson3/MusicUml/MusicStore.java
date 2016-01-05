@@ -1,9 +1,14 @@
-package mod3;
+package musicUml;
 
-import mod3.Guitar;
+import java.util.ArrayList;
 
 public class MusicStore {
-    public Guitar myGuitar = new Guitar();
-    public Piano myPiano = new Piano();
-    public Trumpet myTrumpet = new Trumpet();
+    public String location;
+    public String name;
+
+    ArrayList<MusInstr> instruments = new ArrayList<MusInstr>();
+
+    public void addInstruments (MusInstr instr) {
+        instruments.add(instr);
+    }
 }

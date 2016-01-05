@@ -1,5 +1,9 @@
-package mod3;
+package musicUml;
 
-public abstract class MusInstr {
-    public abstract void play();
+abstract class MusInstr {
+    protected int size;
+    protected int weight;
+    protected String material;
+
+    protected abstract void play();
 }

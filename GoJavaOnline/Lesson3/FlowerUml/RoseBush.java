@@ -1,4 +1,13 @@
+package flowersUml;
+
+import java.util.ArrayList;
 
 public class RoseBush {
-    public Rose myRose = new Rose();
+    public int amountOfRoses;
+
+    ArrayList<Rose> roses = new ArrayList<Rose>();
+
+    public void addRoses (Rose rss) {
+        roses.add(rss);
+    }
 }

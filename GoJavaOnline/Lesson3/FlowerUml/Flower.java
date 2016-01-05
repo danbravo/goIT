@@ -1,5 +1,10 @@
+package flowersUml;
 
-public abstract class Flower {
-    public abstract void grow();
-    public abstract void smell();
+abstract class Flower {
+    protected String color;
+    protected int size;
+    protected int numberOfPetals;
+
+    protected abstract void grow();
+    protected abstract void smell();
 }

@@ -1,7 +1,13 @@
+package flowersUml;
+
+import java.util.ArrayList;
 
 public class Bouquet {
-    public Rose myRose = new Rose();
-    public Chamomile myChamomile = new Chamomile();
-    public Aster myAster = new Aster();
-    public Tulip myTulip = new Tulip();
+    public int maxSize;
+
+    ArrayList<Flower> flowers = new ArrayList<Flower>();
+
+    public void addFlowers (Flower flwr) {
+        flowers.add(flwr);
+    }
 }

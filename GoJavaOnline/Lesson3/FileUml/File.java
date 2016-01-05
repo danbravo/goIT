@@ -1,4 +1,8 @@
+package fileUml;
 
-public abstract class File {
-    public abstract void edit();
+abstract class File {
+    protected String name;
+    protected String extension;
+
+    protected abstract void edit();
 }

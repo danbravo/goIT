@@ -16,6 +16,6 @@ public class SplitExample {
 
         System.out.println(Arrays.toString(splittedStringArray)
                 .replace("[", "")
-                .replace("}", ""));
+                .replace("]", ""));
     }
 }
